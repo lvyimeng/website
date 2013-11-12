@@ -1,0 +1,233 @@
+/* #Mobile (Landscape)
+================================================== */
+/* Note: Design for a width of 480px */
+
+@media only screen and (min-width: 480px) and (max-width: 767px) {
+	
+.main-content-box {
+	width:440px;
+	background-size:440px 9px;
+}
+.main-content-box .left-border, .main-content-box .right-border {
+		top:5px;
+}
+/* Navigations
+---------------------------------------- */
+
+/* Primary navigation */
+nav.primary {
+	clear:both;
+	width:100%;
+	text-align:center;
+}
+
+/* Logo */
+.logo {
+	}
+.logo img{
+	width:145px;
+	height:auto;
+	}
+	.logo .tagline {
+		display:block;
+		}
+
+/* Top search */
+#top-search .input-search {
+	width:337px;
+}
+#top-search #submit {
+	
+	}
+
+#slider-wrapper {
+	margin:0 auto;
+}
+
+/* Header widget */
+#widget-header {
+	padding:5px 0 15px 0;
+	}
+	
+/* Primary navigation */	
+.select-menu {
+	display: block !important;
+}	
+.before-content {
+	width:420px;
+	margin:0 auto;
+	padding:0 !important;
+}
+.post_list.recent_products li {
+    width: 178px;
+	margin:0 5px 10px 5px !important;
+	float: left;
+	padding:10px;
+}
+/* Slider
+---------------------------------------- */
+.flexslider-holder {
+	height:223px;
+	}
+
+.post_list.home-latest li {
+	float:left;
+	width:200px;
+	margin:0 5px !important;
+}
+.home-page-content {
+	padding: 0 !important;
+}
+/* Flickr widget */
+.flickrImages a {
+	width:69px;
+	height:69px;
+	}
+.home-page-content .post_list li {
+	margin:0 auto 10px auto !important;
+	float:none;
+}
+.footer-widget .post_list li {
+	margin:0 2px 5px 2px !important;
+	width:136px;
+}
+/* Post */
+.post-meta .fright {
+	float:right;
+	clear:none;
+	}
+.post_list.featured_prod .featured-thumbnail {
+	float:none;
+}
+/* Testimonials list*/
+article.testimonial {
+	padding:10px 10px 10px 145px;
+	background:none;
+	}
+	article.testimonial .featured-thumbnail{
+		left:10px;
+		top:10px;
+		margin:0;
+	}
+.before-content .banners-holder li {
+	width:140px;
+	margin:0 0 5px 0 !important;
+}
+/* Images */
+.frame.alignleft,
+.frame.alignright,
+.frame.alignnone {
+	margin-right:0;
+	width:404px;
+	}
+	
+/* SlidesJS */
+.slides_container {
+	width:420px;
+}
+.slides_container .item {
+	width:420px;
+	height:250px;
+}
+.slides_container .item .thumbnail img {
+	width:100%;
+	height:auto;
+	}
+
+/* Comments */
+.commentlist ul.children {
+	margin-left:0;
+	}
+
+
+/* Post Formats
+---------------------------------------- */
+
+/* Image Post Format */
+
+
+/* Gallery Post Format */
+.slides_container_gallery {
+	width:420px;
+	height:200px;
+	}
+	.slides_container_gallery .g_item {
+		width:420px;
+		}
+
+/* Audio Format Type */
+.audiojs .scrubber {
+	width:248px;
+	}
+	
+		
+	
+	
+/* Sidebar
+---------------------------------------- */
+#searchform .searching {
+	width:260px;
+	}
+#footer:before {
+	left:-200px;
+	right:-200px;
+}
+/* Shop settings
+---------------------------------------- */
+nav.shop-nav ul li {
+		float:none;
+		display:inline-block;
+	}
+	.products li{
+		width:204px !important;
+		margin:0 2px 5px 2px !important;
+	}
+	.products li:nth-child(3n){
+		margin-right: 2px !important;
+	}
+	.products li.nomargin{
+		margin-right: 2px !important;
+	}
+	.products li .product-inner {
+		padding:10px !important;
+	}
+	.images {
+		width: 310px !important;
+		margin:0 auto !important;
+		float:none !important;
+	}
+	.product.type-product .images .sub-pager a{margin: 0 0px 0 5px;}
+	.product.type-product .images .sub-pager{padding-left: 0; padding:10px 0 10px 0;}
+
+	.product_list_widget {
+		font-size:0;
+		line-height:0;
+		word-spacing:-10px;
+	}
+	.product_list_widget * {
+		font-size:12px;
+		line-height:20px;
+		word-spacing:0;
+	}
+	.product_list_widget li {
+		overflow: hidden;
+		width:183px;
+		display:-moz-inline-box;
+		display:inline-block;
+		padding: 10px !important;
+		margin:0 2px 5px 2px !important;
+		text-align:center;
+	}
+	.product_list_widget li span {
+		text-align:center;
+	}
+	.product_list_widget li img {
+		float:none;
+		margin:0 auto 10px auto;
+	}
+.attributes .product-price {
+	font-size:16px !important;
+}
+.attributes .product-price .label {
+	
+}

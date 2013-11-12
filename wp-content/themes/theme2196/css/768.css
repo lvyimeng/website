@@ -1,0 +1,264 @@
+/* #Tablet (Portrait)
+================================================== */
+/* Note: Design for a width of 768px */
+
+@media only screen and (min-width: 768px) and (max-width: 995px) {
+
+/* Logo */
+.logo {
+	margin:0 0 0 -6px;
+}
+.main-content-box {
+	width:768px;
+	background-size:contain;
+	padding:9px 0 0 0;
+}
+.main-content-box .left-border, .main-content-box .right-border {
+		top:5px;
+}
+#header .middle-row .shopping-block {
+	margin:0 -10px 0 0;
+}
+/* Slider
+---------------------------------------- */
+#slider-wrapper {
+	margin:0 auto;
+}
+.flexslider-holder {
+	height:398px;
+	}
+.flex-caption h2 {
+	font-size:48px;
+	line-height:48px;
+}
+	
+#top-search {
+	margin:0 -6px 0 0;
+}
+/* Flickr widget */
+.flickrImages a {
+	width:58px;
+	height:58px;
+	}
+
+.frame.alignleft img,
+.frame.alignright img,
+.frame.alignnone img	{
+	width:100% !important;
+	height:auto !important;
+	}
+
+/* SlidesJS */
+	.slides_container .item .featured-thumbnail {
+		float:none;
+		margin-right:0;
+		overflow:hidden;
+		}
+		.slides_container .item .featured-thumbnail img {
+			width:100%;
+			height:auto;
+			}
+
+.home-page-content .post_list li {
+	width:236px;
+}
+/* Team */
+.recent-posts.team li {
+	width:140px;
+	padding:5px;
+	margin:0 20px 20px 0;
+}
+.recent-posts.team li .featured-thumbnail {
+	width:140px;
+	height:auto;
+	overflow:hidden;
+}
+.footer-widget .post_list li {
+	width:115px;
+	margin:0 5px 5px 0;
+}
+/* Address */
+
+		
+.recent-posts.gallery li {
+	float:left;
+	width:222px;
+	margin:0 10px 10px 0;
+}
+.recent-posts.gallery li:nth-child(3n) {
+	margin:0 0 10px 0;
+}
+.recent-posts.gallery li.nomargin  {
+	margin:0 0 10px 0;
+}
+	.recent-posts.gallery li img {
+		width:222px;
+		height:auto;
+	}
+
+.post_list.home-latest li {
+    float: left;
+    margin: 0 5px 0 0;
+    width: 183px;
+}
+.link-3 {
+	background-position:right -14px;
+}
+.post_list.recent_products li {
+	padding:5px;
+	width: 168px;
+	margin:0 9px 10px 0;
+}
+/* Google Map */
+.google-map {
+	position: relative;
+	padding-bottom: 46.25%;
+	height: 0;
+	overflow: hidden;
+	margin:0 0 2% 0;
+}
+.google-map iframe,  
+.google-map object,  
+.google-map embed {
+	position: absolute;
+	top: 0;
+	left: 0;
+	width: 100%;
+	height: 100%;
+	}
+
+
+/* Post Formats
+---------------------------------------- */
+.post-content {
+	overflow:visible;
+}
+/* Image Post Format */
+.image-post-format img {
+	width:100%;
+	overflow:hidden;
+	}	
+
+/* Gallery Post Format */
+.slides_container_gallery {
+	width:534px;
+	height:270px;
+	}
+	.slides_container_gallery .g_item {
+		width:534px;
+		}
+	
+/* Comment Form */
+.commentlist ul.children {
+	margin-left:0;
+	}	
+
+.before-content .banners-holder li {
+	width:248px;
+}
+.latestpost .featured-thumbnail {
+	float:none;
+}
+/* Sidebar
+---------------------------------------- */
+#searchform .searching {
+	width:130px;
+	}	
+
+#footer:before {
+	left:-130px;
+	right:-130px;
+}
+nav.footer ul {
+	padding:0 !important;
+}
+
+/* Shop settings
+---------------------------------------- */
+
+	nav.shop-nav ul li {
+	}
+
+	.widget-before-content .products li .product-inner {
+		padding:10px 20px;
+	}
+	.products li img{
+		max-width: 100%;
+		height: auto;
+	}
+	#header .top-row:after {
+		left:-130px;
+		right:-130px;
+	}
+	.products li{
+		min-height: 233px;
+	}
+	.products li .title {
+		font-size:12px;
+	}
+	.products li .price {
+		line-height:30px;
+		font-size:14px;
+		letter-spacing:0;
+	}
+	.products li .price ins {
+		text-decoration:none;
+		font-size:14px;
+	}
+	.products li .price del {
+		font-size:11px;
+	}
+	.products li .button{
+		font-size:10px;
+	}	
+	.widget .buttons .button {
+		font-size:11px;
+		padding:0 5px;
+		margin:0 4px 0 0;
+	}
+	.widget .buttons .button + .button {
+		margin:0;
+	}
+	.widget .cart_list li {
+		padding:5px !important;
+	}
+	.product_list_widget li {
+		text-align:center !important;
+	}
+	.product_list_widget li span {
+		text-align:center;
+	}
+	.product_list_widget li img {
+		float:none;
+		margin:0 0 10px 0;
+	}
+	.product.type-product .images + .summary .product-price del {
+		margin:0;
+	}
+	.product.type-product .images + .summary .attributes .product-avlb {
+		margin:0 0 3px 0;
+	}
+.product.type-product form.cart .button-alt {
+	overflow: hidden;
+	margin:10px 0 0 0;
+}
+.widget #searchform input[type="text"] {
+	width:100px;
+}
+.widget #searchform input[type="submit"] {
+	padding:0 5px;
+}	
+.summary p {
+	padding:0 0 5px 0;
+}
+.single-product .summary fieldset.variations {
+	padding:5px 8px 10px 8px;
+}
+.variations_form {
+	overflow:hidden;
+}
+
+.single_prod_rate .rating {
+	margin:0;
+}
+}
